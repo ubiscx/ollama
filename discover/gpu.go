@@ -70,7 +70,7 @@ var (
 	CudaComputeMinorMin = "0"
 )
 
-var RocmComputeMajorMin = "9"
+var RocmComputeMajorMin = "8"
 
 // TODO find a better way to detect iGPU instead of minimum memory
 const IGPUMemLimit = 1 * format.GibiByte // 512G is what they typically report, so anything less than 1G must be iGPU
